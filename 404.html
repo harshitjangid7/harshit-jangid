@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <section class="section-2">
+        <h1>404</h1>
+        <p>Look Like you’re lost in space</p>
+        <img src="image/r.png">
+      <a href="index.html"><button>Go Back</button></a>  
+</section>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+body{
+    background: linear-gradient(130deg, rgba(38,35,106,1) 0%, rgba(44,34,101,1) 7%, rgba(121,73,168,1) 40%, rgba(182,100,168,1) 100%);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100dvh;
+}
+
+.section-2{
+background-image:url(../image/ss.png) ;
+height: 100dvh;
+display: grid;
+    align-content: center;
+    justify-items: center;
+    margin: 0;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 430px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 7px;
+    height: min-content;
+}
+
+p{
+    font-family: 'Anonymous Pro', monospace;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-size: 40px;
+}
+
+img{
+    position: absolute;
+    bottom: 0px;
+    opacity: 0.6;
+}
+
+button{
+    padding: 12px;
+    border-radius: 36px;
+    height: 60px;
+    width: 145px;
+    margin: 32px;
+    font-size: 18px;
+    font-family: 'Anonymous Pro', monospace;
+    color: #fff;
+    border: none;
+    background:  #1c1b23;
+}
+
+@media only screen and (max-width: 1300px) {
+    img{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    h1{
+        font-size: 300px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1{
+        font-size: 200px;
+    }
+}
+</style>
+</body>
+</html>
