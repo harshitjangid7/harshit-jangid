@@ -230,9 +230,9 @@ justify-content: space-between;
         height: 80%;
     }
 
-.follow{
-display: none;
-}
+    .follow{
+        display: none;
+    }
 
   }
 
