@@ -10,7 +10,9 @@
         <h1>404</h1>
         <p>Look Like you’re lost in space</p>
         <img src="image/r.png">
-      <a href="index.html"><button>Go Back</button></a>  
+        <a href="index.html" class="a6">
+            <button>Go Back</button>
+        </a>  
 </section>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
@@ -50,7 +52,7 @@ p{
 
 img{
     position: absolute;
-    bottom: 0px;
+    bottom: 70px;
     opacity: 0.6;
 }
 
@@ -65,8 +67,15 @@ button{
     color: #fff;
     border: none;
     background:  #1c1b23;
+    cursor: pointer;
+    z-index: 8;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) 0.5s all;
 }
-
+button:hover{
+    border: #fff 2px solid;
+    transform: scale(0.96);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 @media only screen and (max-width: 1300px) {
     img{
         display: none;
